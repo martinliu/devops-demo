@@ -20,5 +20,10 @@ pipeline {
         echo 'ship to registratry'
       }
     }
+    stage('run') {
+      steps {
+        echo 'Run docker'
+      }
+    }
   }
 }
